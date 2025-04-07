@@ -56,3 +56,82 @@ h1{
     border-bottom: var(--border-primary) 2px solid;
     margin-bottom: 64px;
 }
+
+#main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h2{
+    margin-top: 2px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#text{
+    color: var(--text-secondary);
+    font-size: 16px;
+}
+
+#img-list{
+    width: 1360px;
+    height: 560px;
+    border-radius: 28px;
+}
+
+#list-main{
+    color: var(--text-primary);
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+#list-secondary{
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 48px;
+
+    & #historia{ 
+        margin-left: 30px;
+        list-style: disc;
+        color: var(--accent-blue);
+    }
+
+    & #casais{
+        margin-left: 30px;
+        list-style: disc;
+        color: var(--accent-purple);
+    }
+
+    & #familias{
+        margin-left: 30px;
+        list-style: disc;
+        color: var(--accent-pink);
+    }
+
+    & #orcamento{
+        margin-left: 30px;
+        list-style: disc;
+        color: var(--accent-orange);
+    }
+}
+
+#footer{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#description-footer{
+    font-size: 16px;
+    font-style: italic;
+    color: var(--text-secondary);
+    text-align: center;
+    padding-bottom: 44px;
+    border-top: var(--border-primary) 2px solid;
+    padding-top: 40px;
+    margin-bottom: 65px;
+}
